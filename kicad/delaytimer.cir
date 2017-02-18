@@ -1,0 +1,30 @@
+* /Users/aturner/GIT/delaytimer/kicad/delaytimer.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Friday, February 17, 2017 'PMt' 07:17:29 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Ground Net-_C1-Pad1_ Net-_R4-Pad2_ VCC Net-_C2-Pad1_ Net-_C3-Pad1_ Net-_C3-Pad1_ VCC NE555		
+RV1  ? Net-_C3-Pad1_ VCC POT_TRIM		
+Q3  Net-_Q3-Pad1_ 12V VCC MMBT3906		
+Q4  Net-_Q4-Pad1_ Net-_Q4-Pad2_ 12V MMBT3906		
+Q1  Net-_Q1-Pad1_ Net-_C3-Pad1_ Ground MMBT3904		
+Q2  Net-_Q2-Pad1_ Ground Net-_Q2-Pad3_ MMBT3904		
+C2  Net-_C2-Pad1_ Ground 0.1uf		
+R1  VCC Net-_C1-Pad1_ 100k		
+C3  Net-_C3-Pad1_ Ground 100uf		
+R2  Switched12V Net-_Q1-Pad1_ 100k		
+D1  VCC Switched12V 1n4148		
+R3  Switched12V Ground 10k		
+R8  12V Switched12V 2.2k		
+R6  Net-_Q3-Pad1_ Net-_Q2-Pad3_ 10k		
+R7  Net-_Q4-Pad1_ Net-_Q2-Pad3_ 2.2k		
+R4  Net-_Q2-Pad1_ Net-_R4-Pad2_ 10k		
+R5  Net-_Q2-Pad1_ Ground 2.2k		
+C1  Net-_C1-Pad1_ Ground 0.1uf		
+Q5  Net-_Q4-Pad2_ ? 12V IRLML6344		
+R9  Net-_Q4-Pad2_ Ground 1k		
+
+.end
