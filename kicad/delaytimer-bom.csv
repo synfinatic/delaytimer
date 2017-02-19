@@ -1,11 +1,14 @@
 Source,/Users/aturner/GIT/delaytimer/kicad/delaytimer.sch
 Kicad Rev,Eeschema 4.0.5
-Generated Date,Saturday, February 18, 2017 'AMt' 09:03:03 AM
+Generated Date,Saturday, February 18, 2017 'PMt' 08:28:35 PM
 
-Title,Not Set
-Company,Not Set
-Revision,Not Set
-Date Issue,Not Set
+Title,Adjustable Delay Timer
+Company,Aaron Turner <synfinatic@gmail.com>
+Revision,v1.0
+Date Issue,2017-02-18
+Comment,https://synfin.net/delaytimer
+Comment,Supports 0-55 second delay
+Comment,Use to add an adjustible power off delay for 12V applications
 
 Reference,Value,Library,Library Ref
 U1,NE555,linear,NE555
@@ -17,9 +20,8 @@ Q2,MMBT3904,transistors,MMBT3904
 C1,0.1uf,device,C
 R1,100k,device,R
 C3,100uf,device,CP
-R2,100k,device,R
+R2,2.2k,device,R
 D1,1n4148,device,D
-R3,10k,device,R
 R8,2.2k,device,R
 R6,10k,device,R
 R7,2.2k,device,R
