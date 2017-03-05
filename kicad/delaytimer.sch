@@ -34,8 +34,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Adjustable Delay Timer"
-Date "2017-02-18"
-Rev "v1.0"
+Date "2017-03-05"
+Rev "v1.1"
 Comp "Aaron Turner <synfinatic@gmail.com>"
 Comment1 "https://synfin.net/delaytimer"
 Comment2 "Supports 0-55 second delay"
@@ -95,7 +95,7 @@ F 1 "MMBT3906" H 8400 4250 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8400 4175 50  0000 L CIN
 F 3 "" H 8200 4250 50  0000 L CNN
 	1    8200 4250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L MMBT3904 Q1
@@ -103,10 +103,10 @@ U 1 1 58A68ABE
 P 4900 3450
 F 0 "Q1" H 5100 3525 50  0000 L CNN
 F 1 "MMBT3904" H 5100 3450 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4250 3200 50  0000 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3550 3150 50  0000 L CIN
 F 3 "" H 4900 3450 50  0000 L CNN
 	1    4900 3450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MMBT3904 Q2

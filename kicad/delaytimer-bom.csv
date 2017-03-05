@@ -1,11 +1,11 @@
 Source,/Users/aturner/GIT/delaytimer/kicad/delaytimer.sch
 Kicad Rev,Eeschema 4.0.5
-Generated Date,Saturday, March 04, 2017 'PMt' 04:45:15 PM
+Generated Date,Sunday, March 05, 2017 'AMt' 10:22:40 AM
 
 Title,Adjustable Delay Timer
 Company,Aaron Turner <synfinatic@gmail.com>
-Revision,v1.0
-Date Issue,2017-02-18
+Revision,v1.1
+Date Issue,2017-03-05
 Comment,https://synfin.net/delaytimer
 Comment,Supports 0-55 second delay
 Comment,Use to add an adjustible power off delay for 12V applications
