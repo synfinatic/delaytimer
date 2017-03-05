@@ -1,6 +1,6 @@
 Source,/Users/aturner/GIT/delaytimer/kicad/delaytimer.sch
 Kicad Rev,Eeschema 4.0.5
-Generated Date,Saturday, February 18, 2017 'PMt' 08:28:35 PM
+Generated Date,Saturday, March 04, 2017 'PMt' 04:45:15 PM
 
 Title,Adjustable Delay Timer
 Company,Aaron Turner <synfinatic@gmail.com>
@@ -31,3 +31,4 @@ C2,0.1uf,device,C
 Q5,IRLML6344,device,Q_NMOS_GSD
 R9,1k,device,R
 P1,CONN_01X04,conn,CONN_01X04
+ROpt1,100k,device,R
